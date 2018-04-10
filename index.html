@@ -21,7 +21,7 @@
 		<link rel="stylesheet" href="css/social-links.css"/>
 		<link rel="stylesheet" href="css/glow-buttons.css"/>
 
-		<link rel="icon" type="image/png" href="/images/logo.gif">
+		<link rel="icon" type="image/png" href="/images/Dance-Magic-logo-for-web.png">
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -45,11 +45,11 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2>Introducing</h2>
-				<img src="images/logo.gif" width="50%" height="50%" />
+				<img src="images/Dance-Magic-logo-for-web.png" width="50%" height="50%" />
 				<p>A new Ballroom and Latin American dance class for Potters Bar, Hertfordshire</p>
 				<ul class="actions">
 					<li>
-						<a href="#" class="button big">Classes</a>
+						<a href="#" class="button big">When and where?</a>
 					</li>
 				</ul>
 			</section>
@@ -86,24 +86,30 @@
 						<h2 class="font-tajawal">Choose your dance</h2>
 						<p class="font-tajawal">Which dance best tells your story?</p>
 					</header>
-					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<img id="ballroom-icon" src="icons/icons8-ballroom-dance-filled-100.png" class="purpleGlowButton icon big rounded colorPurple"></img>
+					<div class="flex-container">
+						<div class="flex-full">
+							<section class="box" id="ballroom-box">
+								<span class="purpleGlowButton icon big rounded colorPurple">
+									<img id="ballroom-icon" src="icons/ballroom-icon-small.png" width="40px" height="50px" style="margin-top:30px;"></img>
+								</span>
 								<h3>Ballroom</h3>
-								<p>The Ballroom (or standard) dances are romantic, jazzy or passionate. In competitions the man wears a white tie and tailsuit and the lady usually wears a long, floaty dress to best show off the spins around the floor. All the dances are "in hold" which means the lady stands close to the man and the couple dance as a single unit.</p>
+								<p>The Ballroom (or standard) dances are romantic, jazzy or passionate. In competitions, the man wears a white bow tie and tailsuit and the lady usually wears a long, floaty dress to best show off the spins around the floor. All the dances are "in hold" which means the lady stands close to the man and the couple dance as a single unit.</p>
 							</section>
 						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<img id="latin-icon" src="icons/tango-filled.png" class="redGlowButton icon icons big rounded colorRed"></img>
+						<div class="flex-full">
+							<section class="box" id="latin-box">
+								<span class="redGlowButton icon icons big rounded colorRed">
+									<img id="latin-icon" src="icons/latin-icon-120px.gif" width="58px" height="58px" style="margin-top:28px;"></img>
+								</span>
 								<h3 class="">Latin</h3>
 								<p>The Latin dances are cheeky, fiery and fun. In competitions the man might wear an open-necked shirt and the lady will usually wear a short dress as these dances come from hot places like South America! Partners don't have a fixed hold - they can dance side by side, for example.</p>
 							</section>
 						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<img id="party-icon" src="icons/dancing-filled.png" class="yellowGlowButton icon big rounded colorYellow"/></img>
+						<div class="flex-full">
+							<section class="box" id="party-box">
+								<span class="yellowGlowButton icon big rounded colorYellow">
+									<img id="party-icon" src="icons/party-icon-120px.gif" width="55px" height="50px" style="margin-top:32px;margin-left:5px;"></img>
+								</span>
 								<h3 class="">Party</h3>
 								<p>You might want to just dance to your favourite pop song, or organise all your friends for a group dance. You could also celebrate other countries such as Ceilidh dancing from Scotland or Barn Dancing from the United States of America. Yee hah!</p>
 							</section>
@@ -111,6 +117,15 @@
 					</div>
 				</div>
 			</section>
+
+			<script>
+				window.onload(function() {
+					var ballroom = document.getElementById('ballroom-box');
+					var latin = document.getElementById('latin-box');
+					var party = document.getElementById('party-box');
+
+				})
+			</script>
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">

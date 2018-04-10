@@ -1249,3 +1249,14 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+.flex-container {
+	display: flex;
+	align-items: stretch;
+	align-content: stretch;
+}
+.flex-full {
+	flex: 1;
+	margin-right: 30px;
+	height: 100%;
+}
