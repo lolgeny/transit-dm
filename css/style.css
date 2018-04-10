@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+@import url(http://fonts.googleapis.com/css?family=Tajawal);
 
 /*
 	Transit by TEMPLATED
@@ -33,7 +34,9 @@
 .icon.rounded.colorRed {background-color: var(--red);}
 .icon.rounded.colorYellow {background-color: var(--yellow);}
 
-
+.font-tajawal {
+	font-family: "Tajawal" !important;
+}
 
 
 
