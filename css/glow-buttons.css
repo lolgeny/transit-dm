@@ -11,7 +11,7 @@
 .purpleGlowButton {
   background-color: var(--purple);
 
-  box-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 3px var(--purple);
 
   cursor: pointer;
   color: white !important;
@@ -23,7 +23,7 @@
 .purpleGlowButton:hover {
   -webkit-animation-name: purpleGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px;
+  box-shadow: 0px 0px 40px var(--purple);
 }
 
 
@@ -41,7 +41,7 @@
 .redGlowButton {
   background-color: var(--red);
 
-  box-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 3px var(--red);
 
   cursor: pointer;
   color: white !important;
@@ -53,7 +53,7 @@
 .redGlowButton:hover {
   -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px;
+  box-shadow: 0px 0px 40px var(--red);
 }
 
 
@@ -72,7 +72,7 @@
 .yellowGlowButton {
   background-color: var(--yellow);
 
-  box-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 3px var(--yellow);
 
   cursor: pointer;
   color: white !important;
@@ -84,5 +84,5 @@
 .purpleGlowButton:hover {
   -webkit-animation-name: yellowGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px;
+  box-shadow: 0px 0px 40px var(--yellow);
 }
