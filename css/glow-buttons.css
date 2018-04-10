@@ -1,54 +1,88 @@
-@-webkit-keyframes purpleGlow {
+@-webkit-keyframes purpleGlowTo {
   0% {box-shadow: 0px 0px 3px var(--purple);}
-  50% {box-shadow: 0px 0px 40px var(--purple);}
+  100% {box-shadow: 0px 0px 40px var(--purple);}
+}
+
+@-webkit-keyframes purpleGlowFrom {
+  0% {box-shadow: 0px 0px 40px var(--purple);}
   100% {box-shadow: 0px 0px 3px var(--purple);}
 }
 
 .purpleGlowButton {
   background-color: var(--purple);
 
+  box-shadow: 0px 0px 3px;
+
   cursor: pointer;
+  color: white !important;
+
+  -webkit-animation-name: purpleGlowFrom;
+  -webkit-animation-duration: 1500ms;
 }
 
 .purpleGlowButton:hover {
-  -webkit-animation-name: purpleGlow;
+  -webkit-animation-name: purpleGlowTo;
   -webkit-animation-duration: 1500ms;
-  -webkit-animation-iteration-count: infinite;
+  box-shadow: 0px 0px 40px;
 }
 
 
-@-webkit-keyframes redGlow {
+
+@-webkit-keyframes redGlowTo {
   0% {box-shadow: 0px 0px 3px var(--red);}
-  50% {box-shadow: 0px 0px 40px var(--red);}
+  100% {box-shadow: 0px 0px 40px var(--red);}
+}
+
+@-webkit-keyframes redGlowFrom {
+  0% {box-shadow: 0px 0px 40px var(--red);}
   100% {box-shadow: 0px 0px 3px var(--red);}
 }
 
 .redGlowButton {
   background-color: var(--red);
 
+  box-shadow: 0px 0px 3px;
+
   cursor: pointer;
+  color: white !important;
+
+  -webkit-animation-name: redGlowFrom;
+  -webkit-animation-duration: 1500ms;
 }
 
 .redGlowButton:hover {
-  -webkit-animation-name: redGlow;
+  -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
-  -webkit-animation-iteration-count: infinite;
+  box-shadow: 0px 0px 40px;
 }
 
-@-webkit-keyframes yellowGlow {
+
+
+
+@-webkit-keyframes yellowGlowTo {
   0% {box-shadow: 0px 0px 3px var(--yellow);}
-  50% {box-shadow: 0px 0px 40px var(--yellow);}
+  100% {box-shadow: 0px 0px 40px var(--yellow);}
+}
+
+@-webkit-keyframes yellowGlowFrom {
+  0% {box-shadow: 0px 0px 40px var(--yellow);}
   100% {box-shadow: 0px 0px 3px var(--yellow);}
 }
 
 .yellowGlowButton {
   background-color: var(--yellow);
 
+  box-shadow: 0px 0px 3px;
+
   cursor: pointer;
+  color: white !important;
+
+  -webkit-animation-name: yellowGlowFrom;
+  -webkit-animation-duration: 1500ms;
 }
 
-.yellowGlowButton:hover {
-  -webkit-animation-name: yellowGlow;
+.purpleGlowButton:hover {
+  -webkit-animation-name: yellowGlowTo;
   -webkit-animation-duration: 1500ms;
-  -webkit-animation-iteration-count: infinite;
+  box-shadow: 0px 0px 40px;
 }
