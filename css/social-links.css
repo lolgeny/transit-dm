@@ -1,0 +1,68 @@
+.social .icon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.social .fbook.bar {
+  color: white;
+  background: #3B5998;
+}
+
+.social .twitter.bar {
+  color: white;
+  background: #00ACED;
+}
+
+.social .insta.bar {
+  background: purple;
+  color: orange;
+}
+
+.social .icon span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*************/
+.social .whole * {
+  display: inline-block;
+}
+
+
+.social .bar {
+  height: 50px;
+  width: 200px;
+  position: relative;
+}
+
+.social .bar span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social li {
+  top: 40%;
+}
+
+.social .second {
+  top: calc(50px + 40%);
+}
+
+.social .third {
+  top: calc(100px + 40%);
+}
+
+ul.social {
+  list-style: none;
+}
+
+.social li {
+  position: fixed;
+  right: 0px;
+}
