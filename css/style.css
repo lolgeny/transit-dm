@@ -968,7 +968,7 @@
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: var(--purple);
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
@@ -1163,7 +1163,7 @@
 /* Footer */
 
 	#footer {
-		background: #383b43;
+		background: var(--purple);
 		padding: 6em 0em 4em;
 	}
 
