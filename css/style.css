@@ -20,6 +20,8 @@
 	--blue: #5FA5AF;
 	--red: #A23736;
 	--yellow: #BED166;
+
+	--blue50: rgba(95, 165, 175, 0.5)
 }
 
 .colorLightBlue {background-color: var(--light-blue);}
@@ -960,14 +962,14 @@
 /* Header */
 
 	body.landing #header {
-		background-color: transparent;
+		background-color: var(--blue50);
 		left: 0;
-		position: absolute;
+		position: fixed;
 		top: 0;
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1.0);
 		}
 
 	#header {
@@ -975,8 +977,8 @@
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
-		height: 6em;
-		line-height: 6em;
+		height: 4em;
+		line-height: 4em;
 		width: 100%;
 		z-index: 10000;
 	}
@@ -1022,13 +1024,12 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #cdced0;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
-							color: #ffffff;
+							color: var(--purple);
 						}
 
 					#header nav > ul > li:first-child {
@@ -1062,12 +1063,9 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png),
-		                  url(../images/logo.gif);
-		background-position: center center;
-		background-size: cover;
-		color: #ffffff;
-		padding: 14em 0em 14em;
+		background-color: #d0fef5;
+		color: #5e3d7a;
+		padding: 8em 0em 8em;
 		text-align: center;
 	}
 
@@ -1076,7 +1074,7 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #5e3d7a;
 			font-size: 4em;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
