@@ -1,0 +1,54 @@
+@-webkit-keyframes purpleGlow {
+  0% {box-shadow: 0px 0px 3px var(--purple);}
+  50% {box-shadow: 0px 0px 40px var(--purple);}
+  100% {box-shadow: 0px 0px 3px var(--purple);}
+}
+
+.purpleGlowButton {
+  background-color: var(--purple);
+
+  cursor: pointer;
+}
+
+.purpleGlowButton:hover {
+  -webkit-animation-name: purpleGlow;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes redGlow {
+  0% {box-shadow: 0px 0px 3px var(--red);}
+  50% {box-shadow: 0px 0px 40px var(--red);}
+  100% {box-shadow: 0px 0px 3px var(--red);}
+}
+
+.redGlowButton {
+  background-color: var(--red);
+
+  cursor: pointer;
+}
+
+.redGlowButton:hover {
+  -webkit-animation-name: redGlow;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes yellowGlow {
+  0% {box-shadow: 0px 0px 3px var(--yellow);}
+  50% {box-shadow: 0px 0px 40px var(--yellow);}
+  100% {box-shadow: 0px 0px 3px var(--yellow);}
+}
+
+.yellowGlowButton {
+  background-color: var(--yellow);
+
+  cursor: pointer;
+}
+
+.yellowGlowButton:hover {
+  -webkit-animation-name: yellowGlow;
+  -webkit-animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+}
