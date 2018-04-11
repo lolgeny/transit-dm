@@ -67,6 +67,10 @@ a.no-decoration:hover {
 	margin-top: 22px;
 }
 
+.contains120 {
+	min-width: calc(6em + 120px);
+}
+
 .dance-box {
 	text-align: center;
 	font-weight: bold;
@@ -76,9 +80,16 @@ a.no-decoration:hover {
 	clear: both;
 }
 
-.dance div {
-	padding-top: 10px;
+.dance div.contains {
+	padding-top: 40px;
 	padding-bottom: 100px;
+	position: relative;
+}
+
+.dance div.return {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
 
 .restrict-width div, .dance div {
