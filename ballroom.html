@@ -26,12 +26,9 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
-
-		<!--Bootstrap-->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body>
+		<div id="skel-layers-wrapper" style="position: relative; left: 0px; right: 0px; top: 0px; backface-visibility: hidden; transition: -webkit-transform 0.5s ease, opacity 0.5s ease;">
 
 		<!-- Header -->
 			<header id="header">
@@ -43,8 +40,6 @@
 				</nav>
 			</header>
 
-
-
 		<!-- Main -->
 			<section id="main" class="wrapper colorLightBlue">
 				<div class="container colorLightBlue">
@@ -53,16 +48,15 @@
 						<h1><strong>Ballroom Dances</strong></h1>
 						<p class="topSpace30">The Ballroom (or standard) dances are romantic, jazzy or passionate. In competitions the man wears a white tie and tailsuit and the lady usually wears a long, floaty dress to best show off the spins around the floor. All the dances are "in hold" which means the lady stands close to the man and the couple dance as a single unit.</p>
 					</header>
-
 				</div>
 			</section>
 
-			<!-- One -->
-			<div id="one" class="container-fluid wrapper style1 special bg1">
+		<!-- One -->
+			<section id="one" class="container-fluid wrapper style1 special bg1 restrict-width">
 				<a name="choose"></a>
 				<div class="container-fluid">
 					<header class="major">
-						<h3 style="font-weight: bold;">Choose your ballroom dance</h2><br/>
+						<h2>Choose your ballroom dance</h2><br/>
 						<p>Which best tells your story?</p>
 					</header>
 					<div class="flex-container">
@@ -100,7 +94,7 @@
 							<div class="fancy-box">
 								<a href="#tango">
 									<section class="box" id="T">
-										<span class="icon big rounded center-me yellowGlowButton">T</span>
+										<span class="icon big rounded center-me blueGlowButton">T</span>
 										<h3 class="dance-box">Tango</h3>
 									</section>
 								</a>
@@ -118,66 +112,66 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<script>
 				match_heights('W', 'Q', 'F', 'T', 'VW');
 			</script>
 
-			<div id="waltz" class="container-fluid wrapper style2 special bgcolor1">
-				<a name="waltz"></a>
-				<div class="container-fluid">
-					<section class="dance">
-						<h2>Waltz</h2>
-						<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/kxLkTYaeka4?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
-						<p class="dance-desc">Think of a slow, romantic ride on a boat at sea, swaying to one side and then the other. Maybe in moonlight. The Waltz is danced with three beats to a bar. It has a lovely "woosh, side, close" basic step with lots of rise and fall.</p>
-					</section>
+			<section id="waltz" class="dance bgcolor1">
+				<div>
+					<a name="waltz"></a>
+					<header>
+						<h3>Waltz</h3>
+					</header>
+					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/kxLkTYaeka4?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
+					<p class="dance-desc">Think of a slow, romantic ride on a boat at sea, swaying to one side and then the other. Maybe in moonlight. The Waltz is danced with three beats to a bar. It has a lovely "woosh, side, close" basic step with lots of rise and fall.</p>
 				</div>
-			</div>
+			</section>
 
-			<div id="quickstep" class="container-fluid wrapper style2 special bgcolor2">
-				<a name="quickstep"></a>
-				<div class="container-fluid">
-					<section class="dance">
-						<h2>Quickstep</h2>
-						<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/_jIbaF53vrM?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
-						<p class="dance-desc">Are you ready to up your pace to a fast and furious jazzy number? This does what it says on the tin - Quickstep will have you whizzing around the floor, with an enormous grin on your face, in less time than you can say, <i>"42nd Street!"</i></p>
-					</section>
+			<section id="quickstep" class="dance bgcolor2">
+				<div>
+					<a name="quickstep"></a>
+					<header>
+						<h3>Quickstep</h3>
+					</header>
+					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/_jIbaF53vrM?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
+					<p class="dance-desc">Are you ready to up your pace to a fast and furious jazzy number? This does what it says on the tin - Quickstep will have you whizzing around the floor, with an enormous grin on your face, in less time than you can say, <i>"42nd Street!"</i></p>
 				</div>
-			</div>
+			</section>
 
-			<div id="foxtrot" class="container-fluid wrapper style2 special bgcolor3">
-				<a name="foxtrot"></a>
-				<div class="container-fluid">
-					<section class="dance">
-						<h2>Foxtrot</h2>
-						<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/AZCdtrc5B3U?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
-						<p class="dance-desc">Laid back, suave, sophisticated and extremely über-cool - does this describe you? Foxtrot is for oozingly-smooth jazz lovers. You should probably wear sunglasses as you travel around the floor in serious style.</p>
-					</section>
+			<section id="foxtrot" class="dance bgcolor3">
+				<div>
+					<a name="foxtrot"></a>
+					<header>
+						<h3>Foxtrot</h3>
+					</header>
+					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/AZCdtrc5B3U?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
+					<p class="dance-desc">Laid back, suave, sophisticated and extremely über-cool - does this describe you? Foxtrot is for oozingly-smooth jazz lovers. You should probably wear sunglasses as you travel around the floor in serious style.</p>
 				</div>
-			</div>
+			</section>
 
-			<div id="tango" class="container-fluid wrapper style2 special bgcolor4">
-				<a name="tango"></a>
-				<div class="container-fluid">
-					<section class="dance">
-						<h2>Tango</h2>
-						<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/hs5NPVcbPZw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
-						<p class="dance-desc">If you are feeling intense, moody and determined, this is the dance for you. Tango is a passionate, compact dance with lots of sharp and sudden movements. Watch out for both the lady and the man doing very quick head and foot flicks!</p>
-					</section>
+			<section id="tango" class="dance bgcolor4">
+				<div>
+					<a name="tango"></a>
+					<header>
+						<h3>Tango</h3>
+					</header>
+					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/hs5NPVcbPZw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
+					<p class="dance-desc">If you are feeling intense, moody and determined, this is the dance for you. Tango is a passionate, compact dance with lots of sharp and sudden movements. Watch out for both the lady and the man doing very quick head and foot flicks!</p>
 				</div>
-			</div>
+			</section>
 
-			<div id="viennese" class="container-fluid wrapper style2 special bgcolor1">
-				<a name="viennese"></a>
-				<div class="container-fluid">
-					<section class="dance">
-						<h2>Viennese Waltz</h2>
-						<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/YelDmD38etI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
-						<p class="dance-desc">Think of a whirling, spinning teacup ride and try not to get dizzy! This fast dance has six quick beats to a bar. It's the best one for showing off a long, swirly dress and telling your romantic story.</p>
-					</section>
+			<section id="viennese" class="dance bgcolor1">
+				<div>
+					<a name="viennese"></a>
+					<header>
+						<h3>Viennese Waltz</h3>
+					</header>
+					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/YelDmD38etI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
+					<p class="dance-desc">Think of a whirling, spinning teacup ride and try not to get dizzy! This fast dance has six quick beats to a bar. It's the best one for showing off a long, swirly dress and telling your romantic story.</p>
 				</div>
-			</div>
+			</section>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -217,5 +211,6 @@
 					</a>
 				</li>
 			</ul>
+		</div>
 	</body>
 </html>
