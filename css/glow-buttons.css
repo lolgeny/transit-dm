@@ -8,7 +8,7 @@
   100% {box-shadow: 0px 0px 3px var(--purple); background-color: var(--purple);}
 }
 
-.purpleGlowButton {
+.icon.rounded.big.purpleGlowButton {
   background-color: var(--purple);
 
   box-shadow: 0px 0px 3px var(--purple);
@@ -20,7 +20,7 @@
   -webkit-animation-duration: 1500ms;
 }
 
-.purpleGlowButton:hover {
+.icon.rounded.big.purpleGlowButton:hover {
   background-color: #9883AA !important;
   -webkit-animation-name: purpleGlowTo;
   -webkit-animation-duration: 1500ms;
@@ -38,7 +38,7 @@
   100% {box-shadow: 0px 0px 3px var(--red); background-color: var(--red);}
 }
 
-.redGlowButton {
+.icon.rounded.big.redGlowButton {
   background-color: var(--red);
 
   box-shadow: 0px 0px 3px var(--red);
@@ -50,7 +50,7 @@
   -webkit-animation-duration: 1500ms;
 }
 
-.redGlowButton:hover {
+.icon.rounded.big.redGlowButton:hover {
   -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
   box-shadow: 0px 0px 40px #B25B67;
@@ -70,7 +70,7 @@
   100% {box-shadow: 0px 0px 3px var(--yellow);}
 }
 
-.yellowGlowButton {
+.icon.rounded.big.yellowGlowButton {
   background-color: var(--yellow);
 
   box-shadow: 0px 0px 3px var(--yellow);
@@ -82,13 +82,13 @@
   -webkit-animation-duration: 1500ms;
 }
 
-.yellowGlowButton:hover {
+.icon.rounded.big.yellowGlowButton:hover {
   -webkit-animation-name: yellowGlowTo;
   -webkit-animation-duration: 1500ms;
   box-shadow: 0px 0px 40px var(--yellow);
 }
 
-.yellowGlowButton {
+.icon.rounded.big.yellowGlowButton {
   background-color: var(--yellow);
 
   box-shadow: 0px 0px 3px var(--yellow);
