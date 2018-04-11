@@ -36,6 +36,10 @@
 .icon.rounded.colorRed {background-color: var(--red);}
 .icon.rounded.colorYellow {background-color: var(--yellow);}
 
+#VW span {
+	letter-spacing: 2px;
+}
+
 .font-tajawal {
 	font-family: "Tajawal" !important;
 }
