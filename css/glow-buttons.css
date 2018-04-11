@@ -88,20 +88,33 @@
   box-shadow: 0px 0px 40px var(--yellow);
 }
 
-.icon.rounded.big.yellowGlowButton {
-  background-color: var(--yellow);
 
-  box-shadow: 0px 0px 3px var(--yellow);
+
+
+@-webkit-keyframes blueGlowTo {
+  0% {box-shadow: 0px 0px 3px var(--blue);}
+  100% {box-shadow: 0px 0px 40px var(--blue);}
+}
+
+@-webkit-keyframes blueGlowFrom {
+  0% {box-shadow: 0px 0px 40px var(--blue);}
+  100% {box-shadow: 0px 0px 3px var(--blue);}
+}
+
+.icon.rounded.big.blueGlowButton {
+  background-color: var(--blue);
+
+  box-shadow: 0px 0px 3px var(--blue);
 
   cursor: pointer;
   color: white !important;
 
-  -webkit-animation-name: yellowGlowFrom;
+  -webkit-animation-name: blueGlowFrom;
   -webkit-animation-duration: 1500ms;
 }
 
-.yellowGlowButton:hover {
-  -webkit-animation-name: yellowGlowTo;
+.icon.rounded.big.blueGlowButton:hover {
+  -webkit-animation-name: blueGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px var(--yellow);
+  box-shadow: 0px 0px 40px var(--blue);
 }
