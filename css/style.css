@@ -82,11 +82,30 @@ a.no-decoration:hover {
 }
 
 .video-short {
-	float: left;
-	margin-right: 30px;
+	float: right;
+	margin-left: 30px;
 	height: 170px;
 }
 
+.bgcolor1 {
+	background: var(--purple);
+	color: white;
+}
+
+.bgcolor2 {
+	background: var(--red);
+	color: white;
+}
+
+.bgcolor3 {
+	background: var(--yellow);
+	color: black;
+}
+
+.bgcolor4 {
+	background: var(--blue);
+	color: white;
+}
 
 	body {
 		background: #fff;
