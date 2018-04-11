@@ -67,7 +67,25 @@ a.no-decoration:hover {
 	margin-top: 30px;
 }
 
+.dance-box {
+	text-align: center;
+	font-weight: bold;
+}
 
+.dance {
+	clear: both;
+	margin-bottom: 100px;
+}
+
+.dance-desc {
+	min-height: 170px;
+}
+
+.video-short {
+	float: left;
+	margin-right: 30px;
+	height: 170px;
+}
 
 	body {
 		background: #fff;
