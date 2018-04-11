@@ -610,6 +610,10 @@ a.no-decoration:hover {
 				background-color: #39599f;
 			}
 
+			.icon.rounded.fa-instagram {
+				background-color: purple;
+			}
+
 			.icon.rounded.fa-google-plus {
 				background-color: #c91e1f;
 			}
