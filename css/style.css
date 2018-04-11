@@ -40,6 +40,18 @@
 	font-family: "Tajawal" !important;
 }
 
+.no-decoration {
+	text-decoration: none !important;
+}
+
+a.no-decoration:hover {
+	text-decoration: none !important;
+}
+
+.fancy-box {
+	width: 100%;
+	background-color: white;
+}
 
 
 
