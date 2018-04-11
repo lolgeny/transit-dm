@@ -3,10 +3,10 @@ function match_heights() {
     window.onload = function() {
         var max_height = 0;
         for (id in id_list) {
-            max_height = Math.max(max_height, $('#' + id_list[id]).height());
+            max_height = Math.max(max_height, $('#' + id_list[id]).innerHeight());
         };
         for (id in id_list) {
-            $('#' + id_list[id]).height(max_height);
+            $('#' + id_list[id]).innerHeight(max_height);
         };
     };
 }
