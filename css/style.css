@@ -53,6 +53,12 @@ a.no-decoration:hover {
 	background-color: white;
 }
 
+.center-me {
+	display: block !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 
 	body {
