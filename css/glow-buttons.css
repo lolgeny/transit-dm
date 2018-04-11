@@ -21,7 +21,7 @@
 }
 
 .purpleGlowButton:hover {
-  background-color: #9883AA;
+  background-color: #9883AA !important;
   -webkit-animation-name: purpleGlowTo;
   -webkit-animation-duration: 1500ms;
   box-shadow: 0px 0px 40px #9883AA;
@@ -29,13 +29,13 @@
 
 
 @-webkit-keyframes redGlowTo {
-  0% {box-shadow: 0px 0px 3px var(--red);}
-  100% {box-shadow: 0px 0px 40px var(--red);}
+  0% {box-shadow: 0px 0px 3px var(--red); background-color: var(--red);}
+  100% {box-shadow: 0px 0px 40px #B25B67; background-color: #B25B67;}
 }
 
 @-webkit-keyframes redGlowFrom {
-  0% {box-shadow: 0px 0px 40px var(--red);}
-  100% {box-shadow: 0px 0px 3px var(--red);}
+  0% {box-shadow: 0px 0px 40px #B25B67; background-color: #B25B67;}
+  100% {box-shadow: 0px 0px 3px var(--red); background-color: var(--red);}
 }
 
 .redGlowButton {
@@ -53,7 +53,9 @@
 .redGlowButton:hover {
   -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px var(--red);
+  box-shadow: 0px 0px 40px #B25B67;
+
+  background-color: #B25B67 !important;
 }
 
 
