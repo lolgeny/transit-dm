@@ -19,6 +19,7 @@
 		<script src="js/init.js"></script>
 		<script src="js/social-links.js"></script>
 		<script src="js/glowButtons.js"></script>
+		<script src="js/helpers.js"></script>
 		<link rel="stylesheet" href="css/social-links.css"/>
 		<link rel="stylesheet" href="css/glow-buttons.css"/>
 
@@ -103,12 +104,13 @@
 			</section>
 
 			<script>
-				window.onload = function() {
+				/*window.onload = function() {
 					var max_height = Math.max($('#ballroom-box').height(), Math.max($('#latin-box').height(), $('#party-box').height()));
 					$('#ballrom-box').height(max_height);
 					$('#latin-box').height(max_height);
 					$('#party-box').height(max_height);
-				};
+				};*/
+				match_heights('ballroom-box', 'latin-box', 'party-box');
 			</script>
 
 		<!-- Two -->
