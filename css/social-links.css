@@ -5,6 +5,10 @@
   z-index: 999;
 }
 
+.social .icon::before {
+  font-size: 24px;
+}
+
 .social .fbook.bar {
   color: white;
   background: #3B5998;
