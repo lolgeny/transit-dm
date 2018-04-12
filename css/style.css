@@ -24,11 +24,11 @@
 	--blue50: rgba(95, 165, 175, 0.5)
 }
 
-.colorLightBlue {background-color: var(--light-blue) ;}
-.colorPurple {background-color: var(--purple) ;}
-.colorBlue {background-color: var(--blue) ;}
-.colorRed {background-color: var(--red) ;}
-.colorYellow {background-color: var(--yellow) ;}
+.colorLightBlue {background-color: #D0FEF5;}
+.colorPurple {background-color: #C4B8CE;}
+.colorBlue {background-color: #C4DEE1;}
+.colorRed {background-color: #DDB6BB;}
+.colorYellow {background-color: #FFFFB7;}
 
 .icon.rounded.colorLightBlue {background-color: var(--light-blue);}
 .icon.rounded.colorPurple {background-color: var(--purple);}
@@ -109,23 +109,23 @@ a.no-decoration:hover {
 }
 
 .bgcolor1, .bgcolor1 h3 {
-	background: var(--purple);
-	color: white;
+	background: #C4B8CE;
+	color: black;
 }
 
 .bgcolor2, .bgcolor2 h3 {
-	background: var(--red);
-	color: white;
+	background: #DDB6BB;
+	color: black;
 }
 
 .bgcolor3, .bgcolor3 h3 {
-	background: var(--yellow);
+	background: #FFFFB7;
 	color: black;
 }
 
 .bgcolor4, .bgcolor4 h3 {
-	background: var(--blue);
-	color: white;
+	background: #C4DEE1;
+	color: black;
 }
 
 	body {
