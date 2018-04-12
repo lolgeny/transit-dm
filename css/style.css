@@ -24,11 +24,11 @@
 	--blue50: rgba(95, 165, 175, 0.5)
 }
 
-.colorLightBlue {background-color: #D0FEF5;}
-.colorPurple {background-color: #C4B8CE;}
-.colorBlue {background-color: #C4DEE1;}
-.colorRed {background-color: #DDB6BB;}
-.colorYellow {background-color: #FFFFB7;}
+.colorLightBlue {background-color: var(--light-blue) !important;}
+.colorPurple {background-color: var(--purple) !important;}
+.colorBlue {background-color: var(--blue) !important;}
+.colorRed {background-color: var(--red) !important;}
+.colorYellow {background-color: var(--yellow) !important;}
 
 .icon.rounded.colorLightBlue {background-color: var(--light-blue);}
 .icon.rounded.colorPurple {background-color: var(--purple);}

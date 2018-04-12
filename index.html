@@ -24,7 +24,8 @@
 		<link rel="stylesheet" href="css/glow-buttons.css"/>
 		<link rel="icon" href="icons/favicon.png">
 
-		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<script src="js/map-loader.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoPzP5YI8aHVO44yZyt0DM5-AOu_iUdp8&callback=initMap" async defer></script>
 
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -144,7 +145,7 @@
 			<section class="bgcolor2">
 				<a name="when"></a>
 				<header class="major">
-					<h3>When?</h3>
+					<h3 class="topSpace30">When?</h3>
 				</header>
 				<div class="container">
 					<p>We will hold trial classes for only £2 each, at 2:30 pm - 3:30 pm for three weeks, Saturday 28th April, Saturday 5th May and Saturday 12th May.</p>
@@ -167,26 +168,10 @@
 				<div class="container">
 					<p>Our venue is <i><strong>The Scout Hall, 15 Quakers Lane, Potters Bar, Herts EN6 1RJ</strong></i>.</p>
 					<p>Please be aware that the venue itself has restricted parking, so allow extra time to find parking if you are planning to drive.</p>
-					<!--<Map>-->
-					<div>
-						<div id="map"></div>
-						<script>
-							var map, marker, hall = {lat: 51.703047, lng: -0.180949};
-							function initMap() {
-								map = new google.maps.Map(document.getElementById('map'), {
-									center: hall,
-									zoom: 15
-								});
-								marker = new google.maps.Marker({
-									position: hall,
-									map: map
-								});
-							}
-						</script>
-						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoPzP5YI8aHVO44yZyt0DM5-AOu_iUdp8&callback=initMap" async defer></script>
-					</div>
-					<!--/<Map>-->
-					<center><a href="#" class="button big center-me">What should I wear?</a></center>
+
+					<div id="map">Sorry, either your browser does not support javascript, it is not enabled, or Google Maps is unable to load.</div>
+
+					<center><a href="#" class="button big center-me colorPurple">What should I wear?</a></center>
 					<br/>
 				</div>
 			</section>
