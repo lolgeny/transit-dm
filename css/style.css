@@ -58,7 +58,7 @@ a.no-decoration:hover {
 }
 
 .center-me {
-	display: block ;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -73,6 +73,10 @@ a.no-decoration:hover {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
+}
+
+.text-center {
+	text-align: center;
 }
 
 .contains120 {
