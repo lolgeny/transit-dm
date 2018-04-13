@@ -16,16 +16,19 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
-		<script src="js/social-links.js"></script>
-		<link rel="stylesheet" href="css/social-links.css"/>
+
+		<script src="js/map-loader.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoPzP5YI8aHVO44yZyt0DM5-AOu_iUdp8&callback=initMap" async defer></script>
+
 		<link rel="icon" href="icons/favicon.png">
+		<link rel="stylesheet" href="css/social-links.css"/>
+		<script src="js/social-links.js"></script>
+
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
-
-
 	</head>
 	<body>
 
@@ -35,28 +38,69 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li> <a href="ballroom.html">Ballroom Dances</a> </li>
-						<li><a href="classes.html">Classes</a></li>
+						<li><a href="ballroom.html">Ballroom Dances</a></li>
+						<li><a href="about.html">About us</a></li>
 					</ul>
 				</nav>
 			</header>
 
+		<!-- Main -->
 
-
-			<section id="main" class="wrapper">
+			<section id="two" class="wrapper style2 special">
+				<a name="classes"></a>
 				<div class="container">
-
 					<header class="major">
-						<h2>Our dance story</h2>
+						<h2>Classes</h2>
+						<div class="row center-me">
+							<div class="5u -1u">
+								<a href="#when" class="button big">When?</a>
+							</div>
+							<div class="5u$">
+								<a href="#where" class="button big">Where?</a>
+							</div>
+						</div>
 					</header>
+				</div>
+			</section>
 
-					<p>Abbie and Dave started dancing together in 1999 on the Cambridge University Dancesport Team. They quickly progressed to representing the University of Cambridge on the Ballroom team, dancing Quickstep. Training first with Darren Jarmain, they won a succession of inter-university competitions — notably in Quickstep, Tango, Waltz and Rumba. Abbie ran the Cambridge Dancers' Club as President from 1999-2000. Dave succeeded Abbie as President from 2000 to 2001.</p>
-					<p>For representing Cambridge in the Oxford-Cambridge Varsity Match in 2001, Dave and Abbie gained the prestigious university sporting colours, or Half-Blues. They also started training in Watford with Frank and Linda Venables, former World Professional Ballroom Champions.</p>
-					<p>After university, Dave and Abbie started competing at open Pre-championship and then Amateur competitions. They attended intensive competition training sessions organised by Hazel Newberry (former World Professional Ballroom Champion, BBC Strictly Come Dancing Series 2), James and Claire Taplin (former Amateur Ballroom finalists), and Amanda Harker (Pineapple Dance Studios) through EADA, the English Amateur Dancesport Association. In these sessions, there was a holistic focus on the importance of nutrition, fitness, presentation; and knowledge of other dance styles to enhance performance. Through these workshops, Dave and Abbie learnt to apply styles from jazz, Fosse, ballet and street dance. A highlight of the training was a series of workshops by Vincent Simone and Flavia Cacace (former World Professional Show Argentine Tango Champions, BBC Strictly Come Dancing series 4-10). Dave and Abbie performed shows with other EADA Amateurs throughout the country including group dances such as "All That Jazz" from the musical 'Chicago'.
+			<section class="bgcolor2">
+				<a name="when"></a>
+				<header class="major">
+					<h3 class="topSpace30">When?</h3>
+				</header>
+				<div class="container">
+					<p>We will hold trial classes for only £2 each, at 2:30 pm - 3:30 pm for three weeks, Saturday 28th April, Saturday 5th May and Saturday 12th May.</p>
+					<p>These three trial classes will be for all children from 5 years old (reception) until 12 years old (Year 7).</p>
+					<p>Depending on interest, we will run classes for the rest of the term (until Saturday 7th July) as follows:
+						<table>
+							<tr><td>2:30 - 3:30 pm</td><td>Beginners age 5-8</td></tr>
+							<tr><td>3:30 - 4:30 pm</td><td>Beginners age 9-12</td></tr>
+						</table>
 					</p>
-					<p>Dave and Abbie continued to improve their rankings on the open competitive amateur circuit. They frequently made regional competition finals and attained a Top 20 national ranking. From 2002 to 2009 they competed at the British National Closed Championships in Blackpool, attaining up to 33rd ranking nationally. Additionally, Dave and Abbie competed at many international competitions including the International Championships at Brentwood and the British Open, part of the Blackpool Dance Festival held in the world-famous Winter Gardens Ballroom.
-					</p>
-					<p>Dave and Abbie were also invited to perform in various demonstrations, including as an introduction to "Champions Tennis" at the Royal Albert Hall (2005) and in Guernsey (2006).</p>
+					<p>Half term dates are <b>Saturday 27th May</b> and <b>Saturday 2nd June</b>.</p>
+				</div>
+			</section>
+
+			<section class="bgcolor3">
+				<a name="where"></a>
+				<header class="major">
+					<h3>Where?</h3>
+				</header>
+				<div class="container">
+					<p>Our venue is <i><strong>The Scout Hall, 15 Quakers Lane, Potters Bar, Herts EN6 1RJ</strong></i>.</p>
+					<p>Please be aware that the venue itself has restricted parking, so allow extra time to find parking if you are planning to drive.</p>
+
+					<div id="map">Sorry, either your browser does not support javascript, it is not enabled, or Google Maps is unable to load.</div>
+
+					<center><a href="#" class="button big center-me colorPurple">What should I wear?</a></center>
+					<br/>
+				</div>
+			</section>
+
+			<section class="bgcolor1">
+				<div class="container">
+					<p>Would you like us to hold classes for teens or adults?</p>
+					<p>Please register your interest on the form below!</p>
 				</div>
 			</section>
 
@@ -65,7 +109,7 @@
 					<div class="container">
 						<<div class="row">
 							<div class="8u 12u$(medium)">
-								<<ul class="copyright">
+								<ul class="copyright">
 									<li>&copy; Dance Magic 2018. All rights reserved.</li>
 									<li>Credit - Design: <a href="http://templated.co">Transit (TEMPLATED)</a></li>
 									<li>Further designed by Joel Swedensky and David Swedensky</li>
