@@ -1073,7 +1073,7 @@ body.landing #header {
   top: 0;
 }
 
-body.landing #header nav a {
+nav a {
   color: white;
 }
 
