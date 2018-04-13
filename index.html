@@ -50,7 +50,51 @@
 
 		<!-- Banner -->
 			<section id="banner" class="bannerColorBackground colorLightBlue">
-				<div class="container">
+				<div class="container" style="overflow:hidden;width:100%">
+					<div id="marquee">
+						<img src="images/joel1.jpg" />
+						<img src="images/joel-ani-QS1.jpg" />
+						<img src="images/joel-ani-QS3.jpg" />
+						<img src="images/joel-ani-CC2.jpg" />
+						<img src="images/joel-ani-QS2.jpg" />
+					</div>
+					<style>
+						#marquee {
+							margin-left: 0;
+							overflow: hidden;
+							white-space: nowrap;
+							display: table;
+						}
+					</style>
+					<script>
+						window.addEventListener('load', function () {
+							function go() {
+								if (menabled) {
+									i = i < width ? i + step : 1;
+									m.style.marginLeft = -i + 'px';
+								}
+							}
+							var i = 0,
+							step = 3,
+							menabled = true;
+							var m = document.getElementById('marquee');
+							var t = m.innerHTML; //text
+							m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
+							var width = (m.clientWidth + 1);
+							m.style.position = '';
+							m.innerHTML = t + t + t + t + t + t + t;
+							m.addEventListener('mouseenter', function () {
+								step = 0;
+							}, true);
+							m.addEventListener('mouseleave', function () {
+								step = 3;
+							}, true);
+							m.addEventListener('click', function () {
+								menabled = !menabled;
+							}, true);
+							var x = setInterval(go, 50);
+						}, true);
+					</script>
 					<h3>Introducing</h3>
 					<img src="images/Dance-Magic-logo-for-web.png" width="30%" height="30%" />
 					<p>A new Ballroom and Latin American dance class for Potters Bar, Hertfordshire</p>

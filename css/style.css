@@ -1169,7 +1169,7 @@ body.landing #header nav a {
 #banner {
   background-color: #d0fef5;
   color: #5e3d7a;
-  padding: 8em 0em 8em;
+  padding: 4.4em 0em 8em;
   text-align: center;
 }
 
@@ -1186,9 +1186,10 @@ body.landing #header nav a {
 }
 
 #banner h3 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 700;
   margin: 0 0 0.25em 0;
+  color: var(--purple);
 }
 
 #banner img {
