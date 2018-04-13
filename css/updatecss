@@ -1,3 +1,2 @@
-alias sass="/Users/joel/dev/dart-sass/sass"
-/Users/joel/dev/dart-sass/sass glow-buttons.scss glow-buttons.css
-/Users/joel/dev/dart-sass/sass style.scss style.css
+../dart-sass/sass glow-buttons.scss glow-buttons.css
+../dart-sass/sass style.scss style.css
