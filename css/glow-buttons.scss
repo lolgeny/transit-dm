@@ -1,28 +1,30 @@
+
+$light-blue: #D0FEF5;
+$purple: #5E3D7A;
+$blue: #5FA5AF;
+$red: #A23736;
+$yellow: #BED166;
+$blue50: rgba(95, 165, 175, 0.5);
+
+
 @-webkit-keyframes purpleGlowTo {
-  0% {
-    box-shadow: 0px 0px 3px #5E3D7A;
-    background-color: #5E3D7A;
-  }
-  100% {
-    box-shadow: 0px 0px 40px #9883AA;
-    background-color: #9883AA;
-  }
+  0% {box-shadow: 0px 0px 3px $purple; background-color: $purple;}
+  100% {box-shadow: 0px 0px 40px #9883AA; background-color: #9883AA;}
 }
+
 @-webkit-keyframes purpleGlowFrom {
-  0% {
-    box-shadow: 0px 0px 40px #9883AA;
-    background-color: #9883AA;
-  }
-  100% {
-    box-shadow: 0px 0px 3px #5E3D7A;
-    background-color: #5E3D7A;
-  }
+  0% {box-shadow: 0px 0px 40px #9883AA; background-color: #9883AA;}
+  100% {box-shadow: 0px 0px 3px $purple; background-color: $purple;}
 }
+
 .icon.rounded.big.purpleGlowButton {
-  background-color: #5E3D7A;
-  box-shadow: 0px 0px 3px #5E3D7A;
+  background-color: $purple;
+
+  box-shadow: 0px 0px 3px $purple;
+
   cursor: pointer;
   color: white !important;
+
   -webkit-animation-name: purpleGlowFrom;
   -webkit-animation-duration: 1500ms;
 }
@@ -34,31 +36,25 @@
   box-shadow: 0px 0px 40px #9883AA;
 }
 
+
 @-webkit-keyframes redGlowTo {
-  0% {
-    box-shadow: 0px 0px 3px #A23736;
-    background-color: #A23736;
-  }
-  100% {
-    box-shadow: 0px 0px 40px #B25B67;
-    background-color: #B25B67;
-  }
+  0% {box-shadow: 0px 0px 3px $red; background-color: $red;}
+  100% {box-shadow: 0px 0px 40px #B25B67; background-color: #B25B67;}
 }
+
 @-webkit-keyframes redGlowFrom {
-  0% {
-    box-shadow: 0px 0px 40px #B25B67;
-    background-color: #B25B67;
-  }
-  100% {
-    box-shadow: 0px 0px 3px #A23736;
-    background-color: #A23736;
-  }
+  0% {box-shadow: 0px 0px 40px #B25B67; background-color: #B25B67;}
+  100% {box-shadow: 0px 0px 3px $red; background-color: $red;}
 }
+
 .icon.rounded.big.redGlowButton {
-  background-color: #A23736;
-  box-shadow: 0px 0px 3px #A23736;
+  background-color: $red;
+
+  box-shadow: 0px 0px 3px $red;
+
   cursor: pointer;
   color: white !important;
+
   -webkit-animation-name: redGlowFrom;
   -webkit-animation-duration: 1500ms;
 }
@@ -67,30 +63,30 @@
   -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
   box-shadow: 0px 0px 40px #B25B67;
+
   background-color: #B25B67 !important;
 }
 
+
+
 @-webkit-keyframes yellowGlowTo {
-  0% {
-    box-shadow: 0px 0px 3px #BED166;
-  }
-  100% {
-    box-shadow: 0px 0px 40px #BED166;
-  }
+  0% {box-shadow: 0px 0px 3px $yellow;}
+  100% {box-shadow: 0px 0px 40px $yellow;}
 }
+
 @-webkit-keyframes yellowGlowFrom {
-  0% {
-    box-shadow: 0px 0px 40px #BED166;
-  }
-  100% {
-    box-shadow: 0px 0px 3px #BED166;
-  }
+  0% {box-shadow: 0px 0px 40px $yellow;}
+  100% {box-shadow: 0px 0px 3px $yellow;}
 }
+
 .icon.rounded.big.yellowGlowButton {
-  background-color: #BED166;
-  box-shadow: 0px 0px 3px #BED166;
+  background-color: $yellow;
+
+  box-shadow: 0px 0px 3px $yellow;
+
   cursor: pointer;
   color: white !important;
+
   -webkit-animation-name: yellowGlowFrom;
   -webkit-animation-duration: 1500ms;
 }
@@ -98,30 +94,30 @@
 .icon.rounded.big.yellowGlowButton:hover {
   -webkit-animation-name: yellowGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px #BED166;
+  box-shadow: 0px 0px 40px $yellow;
 }
 
+
+
+
 @-webkit-keyframes blueGlowTo {
-  0% {
-    box-shadow: 0px 0px 3px #5FA5AF;
-  }
-  100% {
-    box-shadow: 0px 0px 40px #5FA5AF;
-  }
+  0% {box-shadow: 0px 0px 3px $blue;}
+  100% {box-shadow: 0px 0px 40px $blue;}
 }
+
 @-webkit-keyframes blueGlowFrom {
-  0% {
-    box-shadow: 0px 0px 40px #5FA5AF;
-  }
-  100% {
-    box-shadow: 0px 0px 3px #5FA5AF;
-  }
+  0% {box-shadow: 0px 0px 40px $blue;}
+  100% {box-shadow: 0px 0px 3px $blue;}
 }
+
 .icon.rounded.big.blueGlowButton {
-  background-color: #5FA5AF;
-  box-shadow: 0px 0px 3px #5FA5AF;
+  background-color: $blue;
+
+  box-shadow: 0px 0px 3px $blue;
+
   cursor: pointer;
   color: white !important;
+
   -webkit-animation-name: blueGlowFrom;
   -webkit-animation-duration: 1500ms;
 }
@@ -129,5 +125,5 @@
 .icon.rounded.big.blueGlowButton:hover {
   -webkit-animation-name: blueGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px #5FA5AF;
+  box-shadow: 0px 0px 40px $blue;
 }
