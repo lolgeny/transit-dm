@@ -2,7 +2,10 @@ var map, marker, hall = {lat: 51.703047, lng: -0.180949};
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: hall,
-    zoom: 15
+    zoom: 15,
+    disableDefaultUI: true,
+    draggable: false,
+    scrollwheel: false
   });
   marker = new google.maps.Marker({
     position: hall,
