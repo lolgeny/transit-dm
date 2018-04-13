@@ -1209,9 +1209,17 @@ nav a {
   /* Style 3 Wrapper */
 }
 
+.bg2 {
+	background-image: url(../images/lights-background-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .wrapper.style1 {
   background-color: #F5F5F5;
-  background-image: url(../images/Dance-Magic-background.gif);
+  background-image: url(../images/lights-background-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   border-bottom: 1px solid rgba(144, 144, 144, 0.25);
   border-top: 1px solid rgba(144, 144, 144, 0.25);
