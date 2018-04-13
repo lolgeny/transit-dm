@@ -20,7 +20,7 @@ $purple: #5E3D7A;
 $blue: #5FA5AF;
 $red: #A23736;
 $yellow: #BED166;
-$blue50: rgba(95, 165, 175, 0.5);
+$blue50: rgba($blue, 0.5);
 
 .colorLightBlue {background-color: $light-blue !important;}
 .colorPurple {background-color: $purple !important;}
