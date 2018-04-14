@@ -33,12 +33,18 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>Ballroom Dances</h1>
+				<a href="index.html"><img src="images/logo.png" alt="Dance Magic" class="toplogo"></img></a>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li> <a href="classes.html">Classes</a></li>
+						<li class="has-dropdown"><a name="dances">Dances</a>
+							<ul class="dropdown">
+								<li><a href="ballroom.html">Ballroom</a></li>
+								<li><a href="latin.html">Latin</a></li>
+								<li><a href="party.html">Party</a></li>
+							</ul>
+						</li>
 						<li><a href="about.html">About us</a></li>
-						<li> <a href="classes.html">Classes</a> </li>
 					</ul>
 				</nav>
 			</header>
@@ -64,9 +70,9 @@
 					<div class="row">
 						<div class="not-small not-xsmall 2u"></div>
 						<div class="2u 6u(small) 12u(xsmall)">
-							<div class="fancy-box">
+							<div class="fancy-box dance-height">
 								<a href="#waltz">
-									<section class="box contains120" id="W">
+									<section class="box contains120 dance-height" id="W">
 										<span class="icon big rounded center-me purpleGlowButton">W</span>
 										<h3 class="dance-box">Waltz</h3>
 									</section>
@@ -76,7 +82,7 @@
 						<div class="2u 6u(small) 12u(xsmall)">
 							<div class="fancy-box">
 								<a href="#quickstep">
-									<section class="box contains120" id="Q">
+									<section class="box contains120 dance-height" id="Q">
 										<span class="icon big rounded center-me redGlowButton">Q</span>
 										<h3 class="dance-box">Quickstep</h3>
 									</section>
@@ -86,7 +92,7 @@
 						<div class="2u 6u(small) 12u(xsmall)">
 							<div class="fancy-box">
 								<a href="#foxtrot">
-									<section class="box contains120" id="F">
+									<section class="box contains120 dance-height" id="F">
 										<span class="icon big rounded center-me yellowGlowButton">F</span>
 										<h3 class="dance-box">Foxtrot</h3>
 									</section>
@@ -96,7 +102,7 @@
 						<div class="2u 6u(small) 12u(xsmall)">
 							<div class="fancy-box">
 								<a href="#tango">
-									<section class="box contains120" id="T">
+									<section class="box contains120 dance-height" id="T">
 										<span class="icon big rounded center-me blueGlowButton">T</span>
 										<h3 class="dance-box">Tango</h3>
 									</section>
@@ -106,7 +112,7 @@
 						<div class="2u 6u(small) 12u(xsmall)">
 							<div class="fancy-box">
 								<a href="#viennese">
-									<section class="box contains120" id="VW">
+									<section class="box contains120 dance-height" id="VW">
 										<span class="icon big rounded center-me purpleGlowButton">VW</span>
 										<h3 class="dance-box">Viennese Waltz</h3>
 									</section>
@@ -118,7 +124,7 @@
 			</section>
 
 			<script>
-				match_heights('W', 'Q', 'F', 'T', 'VW');
+			//	match_heights('W', 'Q', 'F', 'T', 'VW');
 			</script>
 
 			<section id="waltz" class="dance bgcolor1">

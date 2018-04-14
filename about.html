@@ -17,6 +17,7 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/social-links.js"></script>
+		<script src="js/helpers.js"></script>
 		<link rel="stylesheet" href="css/social-links.css"/>
 		<link rel="icon" href="icons/favicon.png">
 		<noscript>
@@ -31,12 +32,18 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="index.html">Dance Magic</a></h1>
+				<a href="index.html"><img src="images/logo.png" alt="Dance Magic" class="toplogo"></img></a>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li> <a href="ballroom.html">Ballroom Dances</a> </li>
-						<li><a href="classes.html">Classes</a></li>
+						<li> <a href="classes.html">Classes</a></li>
+						<li class="has-dropdown"><a name="dances">Dances</a>
+							<ul class="dropdown">
+								<li><a href="ballroom.html">Ballroom</a></li>
+								<li><a href="latin.html">Latin</a></li>
+								<li><a href="party.html">Party</a></li>
+							</ul>
+						</li>
+						<li><a href="about.html">About us</a></li>
 					</ul>
 				</nav>
 			</header>
