@@ -73,12 +73,24 @@ a.no-decoration:hover {
 	margin-bottom: 20px;
 }
 
+$bgimages: url("../images/lights-background-1.jpg"), url("../images/lights-background-2.jpg");
+@for $i from 1 through 2 {
+	.bgimage#{$i} {
+		background-image: nth($bgimages, $i);
+	}
+}
 .text-center {
 	text-align: center;
 }
 
 .contains120 {
 	min-width: calc(6em + 120px);
+}
+
+.gallery {
+	width: 75%;
+	height: 500px;
+	margin: auto;
 }
 
 .dance-box {
