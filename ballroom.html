@@ -36,7 +36,8 @@
 				<a href="index.html"><img src="images/logo.png" alt="Dance Magic" class="toplogo"></img></a>
 				<nav id="nav">
 					<ul>
-						<li> <a href="classes.html">Classes</a></li>
+						<li><a href="index.html" class="fa fa-home"></a></li>
+						<li><a href="classes.html">Classes</a></li>
 						<li class="has-dropdown"><a name="dances">Dances</a>
 							<ul class="dropdown">
 								<li><a href="ballroom.html">Ballroom</a></li>
@@ -67,10 +68,9 @@
 						<h2>Choose your ballroom dance</h2><br/>
 						<p>Which best tells your story?</p>
 					</header>
-					<div class="row">
-						<div class="not-small not-xsmall 2u"></div>
-						<div class="2u 6u(small) 12u(xsmall)">
-							<div class="fancy-box dance-height">
+					<div class="flex-container">
+						<div class="flex-full">
+							<div class="fancy-box">
 								<a href="#waltz">
 									<section class="box contains120 dance-height" id="W">
 										<span class="icon big rounded center-me purpleGlowButton">W</span>
@@ -79,7 +79,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="2u 6u(small) 12u(xsmall)">
+						<div class="flex-full">
 							<div class="fancy-box">
 								<a href="#quickstep">
 									<section class="box contains120 dance-height" id="Q">
@@ -89,7 +89,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="2u 6u(small) 12u(xsmall)">
+						<div class="flex-full">
 							<div class="fancy-box">
 								<a href="#foxtrot">
 									<section class="box contains120 dance-height" id="F">
@@ -99,7 +99,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="2u 6u(small) 12u(xsmall)">
+						<div class="flex-full">
 							<div class="fancy-box">
 								<a href="#tango">
 									<section class="box contains120 dance-height" id="T">
@@ -109,7 +109,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="2u 6u(small) 12u(xsmall)">
+						<div class="flex-full">
 							<div class="fancy-box">
 								<a href="#viennese">
 									<section class="box contains120 dance-height" id="VW">
@@ -123,10 +123,6 @@
 				</div>
 			</section>
 
-			<script>
-			//	match_heights('W', 'Q', 'F', 'T', 'VW');
-			</script>
-
 			<section id="waltz" class="dance bgcolor1">
 				<div class="contains">
 					<a name="waltz"></a>
@@ -135,7 +131,7 @@
 					</header>
 					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/kxLkTYaeka4?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
 					<p class="dance-desc">Think of a slow, romantic ride on a boat at sea, swaying to one side and then the other. Maybe in moonlight. The Waltz is danced with three beats to a bar. It has a lovely "woosh, side, close" basic step with lots of rise and fall.</p>
-					<div class="return bgcolor1"><a href="#choose">Top</a></div>
+					<div class="return bgcolor1"><a href="#choose"><img src="icons/top.png" alt="Top" width="4em" height="4em" /></a></div>
 				</div>
 			</section>
 
@@ -147,7 +143,7 @@
 					</header>
 					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/_jIbaF53vrM?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
 					<p class="dance-desc">Are you ready to up your pace to a fast and furious jazzy number? This does what it says on the tin - Quickstep will have you whizzing around the floor, with an enormous grin on your face, in less time than you can say, <i>"42nd Street!"</i></p>
-					<div class="return bgcolor2"><a href="#choose">Top</a></div>
+					<div class="return bgcolor2"><a href="#choose"><img src="icons/top.png" alt="Top" width="4em" height="4em" /></a></div>
 				</div>
 			</section>
 
@@ -159,7 +155,7 @@
 					</header>
 					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/AZCdtrc5B3U?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
 					<p class="dance-desc">Laid back, suave, sophisticated and extremely über-cool - does this describe you? Foxtrot is for oozingly-smooth jazz lovers. You should probably wear sunglasses as you travel around the floor in serious style.</p>
-					<div class="return bgcolor3"><a href="#choose">Top</a></div>
+					<div class="return bgcolor3"><a href="#choose"><img src="icons/top.png" alt="Top" width="4em" height="4em" /></a></div>
 				</div>
 			</section>
 
@@ -171,7 +167,7 @@
 					</header>
 					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/hs5NPVcbPZw?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
 					<p class="dance-desc">If you are feeling intense, moody and determined, this is the dance for you. Tango is a passionate, compact dance with lots of sharp and sudden movements. Watch out for both the lady and the man doing very quick head and foot flicks!</p>
-					<div class="return bgcolor4"><a href="#choose">Top</a></div>
+					<div class="return bgcolor4"><a href="#choose"><img src="icons/top.png" alt="Top" width="4em" height="4em" /></a></div>
 				</div>
 			</section>
 
@@ -183,15 +179,34 @@
 					</header>
 					<span class="video-short"><iframe height="170px" src="https://www.youtube.com/embed/YelDmD38etI?rel=0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe></span>
 					<p class="dance-desc">Think of a whirling, spinning teacup ride and try not to get dizzy! This fast dance has six quick beats to a bar. It's the best one for showing off a long, swirly dress and telling your romantic story.</p>
-					<div class="return bgcolor1"><a href="#choose">Top</a></div>
+					<div class="return bgcolor1"><a href="#choose"><img src="icons/top.png" alt="Top" width="4em" height="4em" /></a></div>
 				</div>
 			</section>
 
-			<section class="bgcolor3">
+			<section class="wrapper style1 special">
 				<div class="container">
-					<h2 class="text-center">Want to tell another story?</h2>
-					<div class="row">
-
+					<header class="major">
+						<h2 class="">Want to tell another dance story?</h2>
+					</header>
+					<div class="flex-container">
+						<div class="flex-full">
+							<section class="box" id="latin-box">
+								<span class="redGlowButton icon icons big rounded colorRed">
+									<img id="latin-icon" src="icons/latin-icon-120px.gif" width="58px" height="58px" style="margin-top:-5px;vertical-align:middle;"></img>
+								</span>
+								<h3 class="">Latin</h3>
+								<p>The Latin dances are cheeky, fiery and fun. In competitions the man might wear an open-necked shirt and the lady will usually wear a short dress as these dances come from hot places like South America! Partners don't have a fixed hold - they can dance side by side, for example.</p>
+							</section>
+						</div>
+						<div class="flex-full">
+							<section class="box" id="party-box">
+								<span class="yellowGlowButton icon big rounded colorYellow">
+									<img id="party-icon" src="icons/party-icon-120px.gif" width="55px" height="50px" style="margin-top:-5px;margin-left:5px;vertical-align:middle;"></img>
+								</span>
+								<h3 class="">Party</h3>
+								<p>You might want to just dance to your favourite pop song, or organise all your friends for a group dance. You could also celebrate other countries such as Ceilidh dancing from Scotland or Barn Dancing from the United States of America. Yee hah!</p>
+							</section>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -200,7 +215,7 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
-					<<div class="row">
+					<div class="row">
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
 								<li>&copy; Dance Magic 2018. All rights reserved.</li>
