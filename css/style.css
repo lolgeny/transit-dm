@@ -88,6 +88,14 @@ a.no-decoration:hover {
   margin-bottom: 20px;
 }
 
+.bgimage1 {
+  background-image: url("../images/lights-background-1.jpg");
+}
+
+.bgimage2 {
+  background-image: url("../images/lights-background-2.jpg");
+}
+
 .text-center {
   text-align: center;
 }
@@ -96,6 +104,11 @@ a.no-decoration:hover {
   min-width: calc(6em + 120px);
 }
 
+.gallery {
+  width: 75%;
+  height: 500px;
+  margin: auto;
+}
 .dance-height {
 	height: calc(3em + 3.75em * 2.5 + 5em * 1 + 2.5em);
 }
