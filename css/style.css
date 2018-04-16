@@ -134,6 +134,11 @@ a.no-decoration:hover {
   bottom: 0px;
 }
 
+.top {
+  width: 4em;
+  height: 4em;
+}
+
 .restrict-width div, .dance div {
   max-width: 1200px;
   margin-left: auto;
@@ -1113,7 +1118,8 @@ input[type=button]:disabled,
 
 #header .toplogo {
 	height: calc(4em - 4px);
-	padding-left: 0.5em;
+  padding-left: 0.5em;
+  opacity: 0.5;
 }
 
 #header nav {
