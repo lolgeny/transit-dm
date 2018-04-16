@@ -89,6 +89,8 @@
 							step = 3,
 							menabled = true;
 							var m = document.getElementById('marquee');
+							if(window.getComputedStyle(m).display == 'none')
+								return;
 							m.style.opacity = 1;
 							var t = m.innerHTML; //text
 							m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
@@ -108,11 +110,11 @@
 						}, true);
 					</script>
 					<h3>Introducing</h3>
-					<img src="images/Dance-Magic-logo-for-web.png" width="30%" height="30%" />
+					<img src="images/Dance-Magic-logo-for-web.png" style="max-width:240px" />
 					<p>A new Ballroom and Latin American dance class for Potters Bar, Hertfordshire</p>
 					<ul class="actions">
 						<li>
-							<a href="classes.html" class="button big colorPurple">When and where?</a>
+							<a href="classes.html" class="button big purpleGlowButton">When and where?</a>
 						</li>
 					</ul>
 				</div>
@@ -172,7 +174,7 @@
 						<p>Our venue is <i><strong>The Scout Hall, 15 Quakers Lane, Potters Bar, Herts EN6 1RJ</strong></i>.</p>
 						<p>Please be aware that the venue itself has restricted parking, so allow extra time to find parking if you are planning to drive.</p>
 						<br/>
-						<center><a href="classes.html" class="button big center-me colorPurple">Further information</a></center>
+						<center><a href="classes.html" class="button big center-me purpleGlowButton">Further information</a></center>
 						<br/>
 					</div>
 				</div>
@@ -200,7 +202,7 @@
 							</div>
 							<div class="12u$">
 								<ul class="actions">
-									<li><input value="Send Message" class="button special big colorPurple" onclick="DMAWS.sendToTopic(); return false;"></li>
+									<li><input value="Send Message" class="button big purpleGlowButton" onclick="DMAWS.sendToTopic(); return false;"></li>
 								</ul>
 							</div>
 						</div>

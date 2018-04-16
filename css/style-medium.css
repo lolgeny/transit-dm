@@ -41,8 +41,8 @@
 
 /* Banner */
 
-	#banner {
-		padding: 6em 0em 6em;
+	#banner .container {
+		width: 100%!important;
 	}
 
 		#banner h2 {
