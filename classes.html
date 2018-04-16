@@ -113,12 +113,41 @@
 				</div>
 			</section>
 
-			<section class="wrapper style1">
+			<section class="wrapper style3 special">
 				<div class="container">
 					<header>
 						<h2>Would you like us to hold classes for teens or adults?</h2>
 						<p>Please register your interest on the contact form!</p>
 					</header>
+
+					<div class="container 50%">
+						<form>
+							<div class="row uniform">
+								<div class="6u 12u$(small)">
+									<input name="name" id="name" value="" placeholder="Name" type="text">
+								</div>
+								<div class="6u$ 12u$(small)">
+									<input name="email" id="email" value="" placeholder="Email" type="email">
+								</div>
+								<div class="12u$">
+									<select id="category" name="category">
+										<option>I'd like to sign my child up!</option>
+										<option selected>Classes for adults please!</option>
+										<option>Shoe purchase request (please include size)</option>
+										<option>Other...</option>
+									</select>			
+								</div>
+								<div class="12u$">
+									<textarea name="message" id="message" placeholder="Message (optional)" rows="6"></textarea>
+								</div>
+								<div class="12u$">
+									<ul class="actions">
+										<li><input value="Send Message" class="button big purpleGlowButton" onclick="DMAWS.sendToTopic(); return false;"></li>
+									</ul>
+								</div>		
+							</div>
+						</form>
+					</div>		
 				</div>
 			</section>
 

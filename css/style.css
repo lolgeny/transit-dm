@@ -67,6 +67,7 @@ a.no-decoration:hover {
 
 .fancy-box {
   width: 100%;
+  max-width: 200px;
   background-color: white;
 }
 
