@@ -46,7 +46,7 @@
 /* Banner */
 
 	#banner .container {
-		width: 100%!important;
+		width: 100%;
 	}
 
 		#banner h2 {
@@ -55,6 +55,10 @@
 
 		#banner p {
 			font-size: 1.25em;
+		}
+
+		#banner .banner-logo {
+			width: 68%;
 		}
 
 /* Layers */

@@ -40,14 +40,14 @@
     background-color: #A23736;
   }
   100% {
-    box-shadow: 0px 0px 40px #B25B67;
-    background-color: #B25B67;
+    box-shadow: 0px 0px 40px #DDB6BB;
+    background-color: #DDB6BB;
   }
 }
 @-webkit-keyframes redGlowFrom {
   0% {
-    box-shadow: 0px 0px 40px #B25B67;
-    background-color: #B25B67;
+    box-shadow: 0px 0px 40px #DDB6BB;
+    background-color: #DDB6BB;
   }
   100% {
     box-shadow: 0px 0px 3px #A23736;
@@ -73,17 +73,21 @@
 @-webkit-keyframes yellowGlowTo {
   0% {
     box-shadow: 0px 0px 3px #BED166;
+    background-color: #BED166;
   }
   100% {
-    box-shadow: 0px 0px 40px #BED166;
+    box-shadow: 0px 0px 40px #F1FFB7;
+    background-color: #F1FFB7;
   }
 }
 @-webkit-keyframes yellowGlowFrom {
   0% {
-    box-shadow: 0px 0px 40px #BED166;
+    box-shadow: 0px 0px 40px #F1FFB7;
+    background-color: #F1FFB7;
   }
   100% {
     box-shadow: 0px 0px 3px #BED166;
+    background-color: #BED166;
   }
 }
 .icon.rounded.big.yellowGlowButton {
@@ -104,17 +108,21 @@
 @-webkit-keyframes blueGlowTo {
   0% {
     box-shadow: 0px 0px 3px #5FA5AF;
+    background-color: #5FA5AF;
   }
   100% {
-    box-shadow: 0px 0px 40px #5FA5AF;
+    box-shadow: 0px 0px 40px #C4DEE1;
+    background-color: #C4DEE1;
   }
 }
 @-webkit-keyframes blueGlowFrom {
   0% {
-    box-shadow: 0px 0px 40px #5FA5AF;
+    box-shadow: 0px 0px 40px #C4DEE1;
+    background-color: #C4DEE1;
   }
   100% {
     box-shadow: 0px 0px 3px #5FA5AF;
+    background-color: #5FA5AF;
   }
 }
 .icon.rounded.big.blueGlowButton {
