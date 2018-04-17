@@ -69,6 +69,7 @@ a.no-decoration:hover {
   width: 100%;
   max-width: 200px;
   background-color: white;
+  margin: auto;
 }
 
 .center-me {
@@ -103,6 +104,7 @@ a.no-decoration:hover {
 
 .contains120 {
   min-width: calc(6em + 120px);
+  text-align: center;
 }
 
 .gallery {
@@ -587,7 +589,7 @@ input[type=radio] + label:before {
 }
 
 .slightly-transparent {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 /* Icon */
@@ -615,7 +617,6 @@ input[type=radio] + label:before {
 }
 
 .icon.rounded {
-  background-color: #383b43;
   border-radius: 100%;
   color: #ffffff;
   display: inline-block;
@@ -1457,4 +1458,17 @@ div.flex-full {
 
 .twothirds {
   max-width: 840px;
+}
+
+.inline-select {
+  display: inline-block;
+  width: fit-content;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.align-top {
+  vertical-align: top;
 }
