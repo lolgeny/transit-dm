@@ -428,6 +428,9 @@ textarea:focus {
   display: block;
   position: relative;
 }
+.select-wrapper.inline-select {
+  display: inline-block;
+}
 
 .select-wrapper:before {
   content: "";
@@ -963,7 +966,6 @@ input[type=button],
   -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #5FA5AF;
   border-radius: 30px;
   border: 0;
   color: #ffffff;
@@ -1293,10 +1295,12 @@ input[type=button]:disabled,
 
 .wrapper.style1 .box, .wrapper.style2 .box, .wrapper.style3 .box, .wrapper.bg2 .box, .dance .box {
   background-color: #fff !important;
+  color: black !important;
   padding: 3em 2.5em;
 }
 
-.wrapper.style1 .box h2, .wrapper.style1 .box h3, .wrapper.style1 .box h4, .wrapper.style1 .box h5, .wrapper.style1 .box h6 {
+.wrapper.style1 .box h2, .wrapper.style1 .box h3, .wrapper.style1 .box h4, .wrapper.style1 .box h5, .wrapper.style1 .box h6,
+.wrapper.style2 .box h2, .wrapper.style3 .box h2 {
   color: #858585;
 }
 
@@ -1305,6 +1309,11 @@ input[type=button]:disabled,
   border-top: 1px solid rgba(144, 144, 144, 0.25);
   margin-bottom: 4em;
   padding-top: 4em;
+}
+
+.wrapper.style2 {
+  background-color: #D0FEF5;
+  color: black;
 }
 
 .wrapper.style2 .profile {
@@ -1464,9 +1473,10 @@ div.flex-full {
   max-width: 840px;
 }
 
-.inline-select {
+.inline-select select {
   display: inline-block;
-  width: fit-content;
+  width: max-width;
+  margin-right: 2.75em;
 }
 
 .left-align {
@@ -1475,4 +1485,8 @@ div.flex-full {
 
 .align-top {
   vertical-align: top;
+}
+
+.margin-at-bottom {
+  margin-bottom: 2em;
 }
