@@ -33,6 +33,10 @@
 		margin: 1em 1em 1em;
 	}
 
+	.flex-container {
+		flex-wrap: wrap;
+	}
+
 /* Header */
 
 	#skel-layers-wrapper {
