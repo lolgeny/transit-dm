@@ -72,8 +72,8 @@
 
 @-webkit-keyframes yellowGlowTo {
   0% {
-    box-shadow: 0px 0px 3px #BED166;
-    background-color: #BED166;
+    box-shadow: 0px 0px 3px #CEE857;
+    background-color: #CEE857;
   }
   100% {
     box-shadow: 0px 0px 40px #F1FFB7;
@@ -86,13 +86,13 @@
     background-color: #F1FFB7;
   }
   100% {
-    box-shadow: 0px 0px 3px #BED166;
-    background-color: #BED166;
+    box-shadow: 0px 0px 3px #CEE857;
+    background-color: #CEE857;
   }
 }
 .icon.rounded.big.yellowGlowButton {
-  background-color: #BED166;
-  box-shadow: 0px 0px 3px #BED166;
+  background-color: #CEE857;
+  box-shadow: 0px 0px 3px #CEE857;
   cursor: pointer;
   color: white !important;
   -webkit-animation-name: yellowGlowFrom;
@@ -140,4 +140,40 @@
   -webkit-animation-name: blueGlowTo;
   -webkit-animation-duration: 1500ms;
   box-shadow: 0px 0px 40px #C4DEE1;
+}
+
+@-webkit-keyframes greenGlowTo {
+  0% {
+    box-shadow: 0px 0px 3px #4EAA8B;
+    background-color: #4EAA8B;
+  }
+  100% {
+    box-shadow: 0px 0px 40px #A2D9C6;
+    background-color: #A2D9C6;
+  }
+}
+@-webkit-keyframes greenGlowFrom {
+  0% {
+    box-shadow: 0px 0px 40px #A2D9C6;
+    background-color: #A2D9C6;
+  }
+  100% {
+    box-shadow: 0px 0px 3px #4EAA8B;
+    background-color: #4EAA8B;
+  }
+}
+.icon.rounded.big.greenGlowButton {
+  background-color: #4EAA8B;
+  box-shadow: 0px 0px 3px #4EAA8B;
+  cursor: pointer;
+  color: white !important;
+  -webkit-animation-name: greenGlowFrom;
+  -webkit-animation-duration: 1500ms;
+}
+
+.icon.rounded.big.greenGlowButton:hover {
+  background-color: #A2D9C6 !important;
+  -webkit-animation-name: greenGlowTo;
+  -webkit-animation-duration: 1500ms;
+  box-shadow: 0px 0px 40px #A2D9C6;
 }
