@@ -54,7 +54,7 @@
     background-color: #A23736;
   }
 }
-.icon.rounded.big.redGlowButton {
+.redGlowButton {
   background-color: #A23736;
   box-shadow: 0px 0px 3px #A23736;
   cursor: pointer;
@@ -63,11 +63,11 @@
   -webkit-animation-duration: 1500ms;
 }
 
-.icon.rounded.big.redGlowButton:hover {
+.redGlowButton:hover {
+  background-color: #DDB6BB !important;
   -webkit-animation-name: redGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px #B25B67;
-  background-color: #B25B67 !important;
+  box-shadow: 0px 0px 40px #DDB6BB;
 }
 
 @-webkit-keyframes yellowGlowTo {
@@ -100,9 +100,10 @@
 }
 
 .icon.rounded.big.yellowGlowButton:hover {
+  background-color: #F1FFB7 !important;
   -webkit-animation-name: yellowGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px #BED166;
+  box-shadow: 0px 0px 40px #F1FFB7;
 }
 
 @-webkit-keyframes blueGlowTo {
@@ -135,7 +136,8 @@
 }
 
 .icon.rounded.big.blueGlowButton:hover {
+  background-color: #C4DEE1 !important;
   -webkit-animation-name: blueGlowTo;
   -webkit-animation-duration: 1500ms;
-  box-shadow: 0px 0px 40px #5FA5AF;
+  box-shadow: 0px 0px 40px #C4DEE1;
 }
