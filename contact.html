@@ -19,6 +19,7 @@
 		<script src="js/social-links.js"></script>
 		<script src="js/helpers.js"></script>
 		<link rel="stylesheet" href="css/social-links.css"/>
+		<link rel="stylesheet" href="css/glow-buttons.css"/>
 		<link rel="icon" href="icons/favicon.png">
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -58,17 +59,60 @@
 
 					<div class="box slightly-transparent">
 						<header class="major">
-							<h2>Our dance story</h2>
+							<h2>Contact us</h2>
 						</header>
 
-						<p>Abbie and Dave started dancing together in 1999 on the Cambridge University Dancesport Team. They quickly progressed to representing the University of Cambridge on the Ballroom team, dancing Quickstep. Training first with Darren Jarmain, they won a succession of inter-university competitions — notably in Quickstep, Tango, Waltz and Rumba. Abbie ran the Cambridge Dancers' Club as President from 1999-2000. Dave succeeded Abbie as President from 2000 to 2001.</p>
-						<p>For representing Cambridge in the Oxford-Cambridge Varsity Match in 2001, Dave and Abbie gained the prestigious university sporting colours, or Half-Blues. They also started training in Watford with Frank and Linda Venables, former World Professional Ballroom Champions.</p>
-						<p>After university, Dave and Abbie started competing at open Pre-championship and then Amateur competitions. They attended intensive competition training sessions organised by Hazel Newberry (former World Professional Ballroom Champion, BBC Strictly Come Dancing Series 2), James and Claire Taplin (former Amateur Ballroom finalists), and Amanda Harker (Pineapple Dance Studios) through EADA, the English Amateur Dancesport Association. In these sessions, there was a holistic focus on the importance of nutrition, fitness, presentation; and knowledge of other dance styles to enhance performance. Through these workshops, Dave and Abbie learnt to apply styles from jazz, Fosse, ballet and street dance. A highlight of the training was a series of workshops by Vincent Simone and Flavia Cacace (former World Professional Show Argentine Tango Champions, BBC Strictly Come Dancing series 4-10). Dave and Abbie performed shows with other EADA Amateurs throughout the country including group dances such as "All That Jazz" from the musical 'Chicago'.
-						</p>
-						<p>Dave and Abbie continued to improve their rankings on the open competitive amateur circuit. They frequently made regional competition finals and attained a Top 20 national ranking. From 2002 to 2009 they competed at the British National Closed Championships in Blackpool, attaining up to 33rd ranking nationally. Additionally, Dave and Abbie competed at many international competitions including the International Championships at Brentwood and the British Open, part of the Blackpool Dance Festival held in the world-famous Winter Gardens Ballroom.
-						</p>
-						<p>Dave and Abbie were also invited to perform in various demonstrations, including as an introduction to "Champions Tennis" at the Royal Albert Hall (2005) and in Guernsey (2006).</p>
+						<div class="flex-container" style="align-items: center;">
+							<div class="flex-full">
+								<p>We'd love to hear from you!</p>
+								<ul>
+									<li>E-mail: <a href="mailto:info@dance-magic.co.uk">info@dance-magic.co.uk</a></li>
+									<li>Phone: 07866 853068</li>
+									<li>Facebook: </li>
+									<li>Twitter: @DanceMagicUK</li>
+									<li>Instagram: dancemagicuk</li>
+								</ul>
+								<p>Or use the form below.</p>
+							</div>
+							<div class="flex-full contact-logo">
+								<img src="images/Dance-Magic-logo-for-web.png" style="width: 100%" />
+							</div>
+						</div>
 					</div>
+				</div>
+			</section>
+
+			<section class="wrapper style3 special">
+				<div class="container 50%">
+					<form method="POST" action="https://formspree.io/info@dance-magic.co.uk">
+						<div class="row uniform">
+							<div class="6u 12u$(small)">
+								<input name="name" id="name" value="" placeholder="Name" type="text">
+							</div>
+							<div class="6u$ 12u$(small)">
+								<input name="email" id="email" value="" placeholder="Email" type="email">
+							</div>
+							<div class="12u$">
+								<div class="select-wrapper">
+									<select id="category" name="category">
+										<option selected disabled hidden>What is your query about?</option>
+										<option>I'd like to sign my child up!</option>
+										<option>Classes for adults please!</option>
+										<option>Shoe purchase request (please include size)</option>
+										<option>Other...</option>
+									</select>
+								</div>
+							</div>
+							<div class="12u$">
+								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div class="12u$">
+								<ul class="actions">
+									<li><input value="Send Message" class="button big purpleGlowButton" type="submit"></li>
+								</ul>
+							</div>
+						</div>
+					</form>
 				</div>
 			</section>
 

@@ -1495,3 +1495,7 @@ div.flex-full {
 .margin-at-bottom {
   margin-bottom: 2em;
 }
+
+.contact-logo {
+  max-width: 500px;
+}
