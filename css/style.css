@@ -17,12 +17,20 @@
   background-color: #5E3D7A !important;
 }
 
+.fontPurple {
+  color: #5E3D7A !important;
+}
+
 .colorBlue {
   background-color: #5FA5AF !important;
 }
 
 .colorRed {
   background-color: #A23736 !important;
+}
+
+.fontRed {
+  color: #A23736 !important;
 }
 
 .colorYellow {
