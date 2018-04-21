@@ -1305,7 +1305,7 @@ input[type=button]:disabled,
 }
 
 .wrapper.style1 .box h2, .wrapper.style1 .box h3, .wrapper.style1 .box h4, .wrapper.style1 .box h5, .wrapper.style1 .box h6,
-.wrapper.style2 .box h2, .wrapper.style3 .box h2 {
+.wrapper.style2 .box h2, .wrapper.style3 .box h2, .wrapper.style3 .box p {
   color: #858585;
 }
 
