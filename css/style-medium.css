@@ -37,6 +37,10 @@
 		flex-wrap: wrap;
 	}
 
+	.contact-logo {
+		display: none;
+	}
+
 /* Header */
 
 	#skel-layers-wrapper {
@@ -135,6 +139,10 @@
 						display: block;
 						padding: 0.75em 0;
 						text-decoration: none;
+					}
+
+					#navPanel nav ul li li {
+						margin-left: 20px;
 					}
 
 			#navPanel nav .button {
