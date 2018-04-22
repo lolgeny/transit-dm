@@ -1507,3 +1507,19 @@ div.flex-full {
 .contact-logo {
   max-width: 500px;
 }
+
+.embed-top-left {
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+  margin-right: 1em;
+}
+
+.embed-top-right {
+  position: relative;
+  top: 0;
+  right: 0;
+  float: right;
+  margin-left: 1em;
+}
