@@ -1463,7 +1463,6 @@ input[type=button]:disabled,
   align-items: stretch;
   align-content: stretch;
   flex-wrap: nowrap;
-  max-width: 1200px;
 }
 
 div.flex-full {
