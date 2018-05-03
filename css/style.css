@@ -1542,3 +1542,7 @@ ul#ul404 li {
   border-bottom-width: 3px;
   border-bottom-color: rgba(100,100,100,0.25);
 }
+
+.equal td {
+  max-width: 0;
+}
